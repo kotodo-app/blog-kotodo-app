@@ -13,8 +13,8 @@ Where to start to make a to-do app? Obviously there are too much tasks to do to 
 
 | No | Task | Notes |
 |----|------|-------|
-| 1  | Decide on a name. | Done. We decided it will be named: `Kotodo`. |
-| 2  | Reserve a domain. | Done. [`.app`](https://en.wikipedia.org/wiki/.app_(gTLD)) is a new top-level domain for branding mobile, web, and other applications, so it seems appropriate to reserve `kotodo.app` for the name that we decided. |
+| 1  | Decide on a name. | [Done](../whats-in-a-name/). We decided it will be named: `Kotodo`. |
+| 2  | Reserve a domain. | [Done](../whats-in-a-name/). [`.app`](https://en.wikipedia.org/wiki/.app_(gTLD)) is a new top-level domain for branding mobile, web, and other applications, so it seems appropriate to reserve `kotodo.app` for the name that we decided. |
 | 3  | Start a blog. | In progress. We want to document the process, and a blog is a suitable media for that. |
 | 4  | Decide on a blogging platform, host, and theme! | In progress. Use WordPress or SSG? Jekyll? Hugo? |
 | 5  | Do a survey (comparative research) on the existing to-do apps for science. | Need to do this to see what features we like/don't like from the existing apps. |
@@ -23,5 +23,6 @@ Where to start to make a to-do app? Obviously there are too much tasks to do to 
 | 8  | Make a blueprint, UI and application flow ideas. | In order to do this, we also need to study what options out there are available to do this task. |
 | 9  | Make a mock UIs and/or application prototype, redesign, iterate to improve. | This is a prototype that we can try and feel to make sure that the features we want really are something worthwile. |
 
+&nbsp;
 
 To be continued. These are plenty of things to do already, so we're going to start with this.
