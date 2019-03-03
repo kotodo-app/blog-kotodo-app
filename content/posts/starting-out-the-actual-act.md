@@ -1,0 +1,25 @@
+---
+title: "Starting Out the Actual Act"
+date: 2019-03-02T10:28:27+09:00
+draft: false
+tags:
+- review
+- development
+author:
+- Mamad Purbo
+---
+
+It's time to get out of self-justified procrastination, fire up Xcode, and write a line or two of code. It's been more than a year since the last time I used Xcode for an actual work. In software development world, a year is like a whole generation has passed. Tools and libraries were born and died. I want to initiate a perfect start, but compromises and practical decisions have to be made, or I would have to start another cycle of procrastination.
+
+Here's the decisions I have to make now, in a beautiful table.
+
+| No | Stuff To Decide | Options | Blah Blah, and Decide Now or Never |
+|----|--------|------|------|
+| 1 | Package Management (iOS) | <ul><li>[CocoaPods](https://cocoapods.org/)</li><li>[Carthage](https://github.com/Carthage/Carthage)</li><li>[Swift Package Manager (SPM)](https://github.com/apple/swift-package-manager)</li><li>Good old plain Xcode project</li></ul> | Plain Xcode project is out of the question, really. <br/><br/> The most practical option would be CocoaPods as it has been around forever. I even have [some libraries](https://github.com/mpurbo/MMPReactiveCoreLocation) published in CocoaPods. <br/><br/> I tried Carthage several times, I really wanted to like it, but I somehow couldn't. <br/><br/> I really want to choose SPM, but there is no official support for iOS yet. And there is no official announcement yet when SPM will support iOS, 5 years after it's released! Some hardcores uses SPM for iOS project anyway, like [here](https://github.com/j-channings/swift-package-manager-ios), [here](https://www.ralfebert.de/ios-examples/xcode/ios-dependency-management-with-swift-package-manager/) and [here](https://engblog.nextdoor.com/swift-packages-in-ios-app-fc12ee030f15). So maybe I should do that too. For the future of humanity. <br/><br/>So, **SPM** it is. |
+| 2 | Code Repo, Issues and Project Management | <ul><li>[Github](https://github.com)</li><li>[Atlassian](http://atlassian.com)</li><li>[Gitlab](https://gitlab.com)</li><li>[PivotalTracker](https://www.pivotaltracker.com/)</li><li>[TeamClerk](https://www.teamclerk.com/)</li></ul> | We already have a [Github Organization](https://github.com/kotodo-app) repository for this blog. Unfortunately we have to pay 10$ to make private repository. Unless there is a huge advantage of having a paid account other than ability to have a private repo, I see no justification for this spending. Github's issue management is not that amazing anyway.<br/><br/>Atlassian's [JIRA](https://www.atlassian.com/software/jira) is probably a good thing to try for 10$. Maybe later. I've used Atlassian's free [Trello](https://www.atlassian.com/software/trello) for a while now, so Atlassian suite is a possible option in the future when we go nuclear.<br/><br/>Gitlab is free and great. I see no reason why not to choose Gitlab, other than the nagging feeling of wanting to put everything in one place (and I already store this blog in Github, and I need it there to show-off or something). But I definitely [can fight this feeling](https://www.youtube.com/watch?v=zpOULjyy-n8).<br/><br/>I've never tried PivotalTracker and TeamClerk, but I'll definitely try them out for project/issue management.<br/><br/>But **Gitlab** is the clear winner here. I'll probably use [Trello](https://trello.com/) as well for more immediate task management. |
+| 3 | Backend Database | <ul><li>[Firebase](https://firebase.google.com/)</li><li>[Couchbase](https://www.couchbase.com/)</li><li>[Parse](https://parseplatform.org/)</li><li>[RethinkDB](https://www.rethinkdb.com/)</li></ul> | I used Firebase before, and it was awesome. I heard that it will get expensive on production. I've never tried the other options, so maybe it's a good time to try one of those. The question is which one. Maybe all of them? Maybe make different version of basic app using those?<br/><br/>That's it! I'll waste some time and try all the things! I'll probably start with **RethinkDB** |
+| 4 | Enabling auto-complete | <ul><li>[Elasticsearch](https://www.elastic.co/)</li><li>[Algolia](https://www.algolia.com/)</li><ul> | When using Firebase, I'll need to index it for auto-complete/auto-suggest feature (my number one priority of MVP). I'm not sure about other database options (whether it's possible to do contextual full-text search on the DB), but I'll assume, I'll eventually will need a dedicated content search engine. <br/><br/>I think I'll try **Algolia** first as they have free-tier for developers, and seems cheaper when scaling up. I can't say anything featurewise. I have no experience at all with Algolia, and scant experience with Elasticsearch. |
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="rQSP4Mv"><a href="//imgur.com/rQSP4Mv"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+But, [decisions have been made. I've conquered my fears](http://www.marillion.com/music/lyric.htm?id=12). 

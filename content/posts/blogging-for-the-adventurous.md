@@ -2,6 +2,10 @@
 title: "Blogging for the Adventurous"
 date: 2019-02-10T11:20:03+09:00
 draft: false
+tags:
+- process
+author:
+- Mamad Purbo
 ---
 
 Static site blogging is all the rage recently. Is doing it makes a great content? Obviously not. If creating a great content is to be the objective, `WordPress` is probably your best bet. But if the objective is having fun learning when time is on your side, then trying out blogging platforms even before start blogging could be a great excuse for not writing actual contents. Like what Taro Aso would said:
@@ -22,7 +26,7 @@ I'm going to try the traditional ones out:
   1. [Wix](https://www.wix.com/). The one that nobody sure what it is.
   1. [Tumlbr](https://www.tumblr.com/). The one with porn in it, but not anymore.
   1. [Svbtle](https://svbtle.com/). The one with minimalistic design.
-  1. [Squarespace](https://www.squarespace.com/). The one for rich folks with some money sto spare.
+  1. [Squarespace](https://www.squarespace.com/). The one for rich folks with some money to spare.
 1. Self-Hosted (Dynamic)
   1. [WordPress](https://wordpress.org/). The `PHP` code base has been around forever, so there be dragons.
   1. [Ghost](https://ghost.org/). `Node.js`-based code, so it's supposedly kind of modern.
